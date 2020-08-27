@@ -1,0 +1,31 @@
+/* You can add global styles to this file, and also import other style files */
+@import '..\node_modules\bootstrap\dist\css\bootstrap.min.css';
+
+.form-group>input{
+    font-weight :bolder;
+}
+.form-group>label{
+    font-weight :lighter;
+}
+
+button[type="submit"]{
+    background-color: blue;
+    color: azure;
+}
+.jumbotron{
+    background-color: aliceblue;
+    padding-top: 32px;
+}
+table tr:hover{
+    cursor: pointer;
+    color:crimson;
+}
+input.ng-dirty.ng-invalid{
+    border-color: crimson;
+}
+div.validation-error{
+    width: 100%;
+    margin-top: .25rem;
+    font-size:80%;
+    color:crimson;
+}
